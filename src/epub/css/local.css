@@ -92,3 +92,9 @@ section > header [epub|type~="epigraph"] + *{
 #memoir-1 header p{
 	text-indent: 0;
 }
+
+#chapter-1-2 > header p:last-of-type{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
