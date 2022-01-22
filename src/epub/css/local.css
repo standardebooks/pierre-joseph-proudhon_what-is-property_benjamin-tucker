@@ -1,5 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
 /* Begin letter */
 [epub|type~="z3998:letter"] header{
@@ -89,12 +90,50 @@ section > header [epub|type~="epigraph"] + *{
 }
 /* End bridgeheads */
 
+/* Begin verse */
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
+}
+/* End verse */
+
+body [xml|lang]{
+	font-style: italic;
+}
+
+table{
+	margin: 1em auto 1em auto;
+}
+
+#chapter-1-4 td{
+	text-align: center;
+}
+
 #memoir-1 header p{
 	text-indent: 0;
 }
 
-#chapter-1-2 > header p:last-of-type{
+#chapter-1-2 > header p:last-of-type,
+#chapter-1-4-1-5-1 header p{
 	font-variant: small-caps;
 	margin: 1em;
+	text-align: center;
+}
+
+#chapter-1-4-1 blockquote:nth-of-type(6){
 	text-align: center;
 }
