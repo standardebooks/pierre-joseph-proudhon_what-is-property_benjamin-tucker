@@ -134,6 +134,7 @@ table{
 	text-align: center;
 }
 
-#chapter-1-4-1 blockquote:nth-of-type(6){
+#chapter-1-4-1 blockquote:nth-of-type(6),
+#part-1-5-2-2 blockquote:first-of-type{
 	text-align: center;
 }
