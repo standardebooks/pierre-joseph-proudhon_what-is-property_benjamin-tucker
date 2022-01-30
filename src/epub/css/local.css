@@ -151,6 +151,17 @@ abbr[epub|type~="se:era"]{
 	text-align: center;
 }
 
+#chapter-1-3-1 [epub|type~="epigraph"]{
+	margin-top: 1em;
+}
+
+#chapter-1-3-6 blockquote:first-of-type cite,
+#chapter-1-3-6 blockquote:nth-of-type(2) cite{
+	display: inline;
+	font-style: normal;
+	text-align: initial;
+}
+
 #memoir-2 > blockquote{
 	margin-left: 0;
 	margin-right: 0;
