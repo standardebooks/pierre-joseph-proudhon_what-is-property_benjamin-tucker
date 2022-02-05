@@ -140,13 +140,14 @@ abbr[epub|type~="se:era"]{
 }
 
 #chapter-1-2 > header p:last-of-type,
-#chapter-1-4-1-5-1 header p{
+#chapter-1-4-1 footer p,
+#chapter-1-4-2-5-1 header p{
 	font-variant: small-caps;
 	margin: 1em;
 	text-align: center;
 }
 
-#chapter-1-4-1 blockquote:nth-of-type(6),
+#chapter-1-4-2 blockquote:nth-of-type(6),
 #part-1-5-2-2 blockquote:first-of-type{
 	text-align: center;
 }
