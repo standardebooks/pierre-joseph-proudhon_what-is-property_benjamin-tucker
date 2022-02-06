@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-1-3.xhtml">
+		<ignore>
+			<code>s-054</code>
+			<reason>Two citations are inline within a blockquoted paragraph. There is punctuation following the citations so they cannot be a direct child of the blockquote.</reason>
+		</ignore>
+	</file>
+	<file path="memoir-1.xhtml">
+		<ignore>
+			<code>t-054</code>
+			<reason>The epigraph is given in both Latin and English.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
