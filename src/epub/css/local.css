@@ -123,7 +123,8 @@ body [xml|lang]{
 	font-style: italic;
 }
 
-em i[xml|lang]{
+em i[xml|lang],
+blockquote cite i[xml|lang]{
 	font-style: normal;
 }
 
