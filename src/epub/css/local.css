@@ -155,3 +155,7 @@ abbr[epub|type~="se:era"]{
 	margin-left: 0;
 	margin-right: 0;
 }
+
+#memoir-2 time{
+	font-style: italic;
+}
