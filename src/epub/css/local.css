@@ -151,6 +151,10 @@ abbr[epub|type~="se:era"]{
 	text-align: initial;
 }
 
+#chapter-1-5 ol:nth-of-type(2){
+	list-style-type: upper-roman;
+}
+
 #memoir-2 > blockquote{
 	margin-left: 0;
 	margin-right: 0;
