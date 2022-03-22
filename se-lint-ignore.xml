@@ -12,12 +12,6 @@
 			<reason>The title of the book “What Is Property?” has a quotation mark.</reason>
 		</ignore>
 	</file>
-	<file path="endnotes.xhtml">
-		<ignore>
-			<code>t-032</code>
-			<reason>18mo is an abbreviation without a period.</reason>
-		</ignore>
-	</file>
 	<file path="memoir-1.xhtml">
 		<ignore>
 			<code>t-054</code>
