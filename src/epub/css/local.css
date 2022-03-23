@@ -160,6 +160,6 @@ abbr[epub|type~="se:era"]{
 	font-style: italic;
 }
 
-#memoir-2 [epub|type~="z3998:letter"] header time{
+#memoir-2 header time{
 	font-style: normal;
 }
