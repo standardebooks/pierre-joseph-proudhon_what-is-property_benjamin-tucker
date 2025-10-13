@@ -74,7 +74,7 @@
 		<dc:contributor id="author-of-introduction">J. A. Langlois</dc:contributor>
 		<meta property="file-as" refines="#author-of-introduction">Langlois, J. A.</meta>
 		<meta property="se:name.person.full-name" refines="#author-of-introduction">Amédée Jérôme Langlois</meta>
-		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Gustave Courbet</dc:contributor>
 		<meta property="file-as" refines="#artist">Courbet, Gustave</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Jean Désiré Gustave Courbet</meta>
