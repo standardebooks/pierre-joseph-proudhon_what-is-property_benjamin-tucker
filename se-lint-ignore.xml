@@ -1,32 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="chapter-1-3.xhtml">
-		<ignore>
-			<code>s-054</code>
+		<ignore code="s-054">
 			<reason>Two citations are inline within a blockquoted paragraph. There is punctuation following the citations so they cannot be a direct child of the blockquote.</reason>
 		</ignore>
 	</file>
 	<file path="endnotes.xhtml">
-		<ignore>
-			<code>t-017</code>
+		<ignore code="t-017">
 			<reason>The title of the book “What Is Property?” has a quotation mark.</reason>
 		</ignore>
 	</file>
 	<file path="memoir-1.xhtml">
-		<ignore>
-			<code>t-054</code>
+		<ignore code="t-054">
 			<reason>The epigraph is given in both Latin and English.</reason>
 		</ignore>
 	</file>
 	<file path="memoir-2.xhtml">
-		<ignore>
-			<code>t-017</code>
+		<ignore code="t-017">
 			<reason>The title of the book “What Is Property?” has a quotation mark.</reason>
 		</ignore>
 	</file>
 	<file path="preface.xhtml">
-		<ignore>
-			<code>t-017</code>
+		<ignore code="t-017">
 			<reason>The title of the book “What Is Property?” has a quotation mark.</reason>
 		</ignore>
 	</file>
