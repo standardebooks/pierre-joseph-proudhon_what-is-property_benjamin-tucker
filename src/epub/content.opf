@@ -38,7 +38,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">What Is Property? Or, An Inquiry Into the Principle of Right and of Government</dc:title>
 		<meta property="file-as" refines="#fulltitle">What Is Property? Or, An Inquiry Into the Principle of Right and of Government</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Economics</dc:subject>
 		<dc:subject id="subject-2">Property</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
