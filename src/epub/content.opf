@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/pierre-joseph-proudhon/what-is-property/benjamin-tucker</dc:identifier>
 		<dc:date>2022-03-22T20:37:46Z</dc:date>
@@ -46,12 +46,12 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85107496</meta>
 		<meta property="schema:genre">Philosophy</meta>
-		<dc:description id="description">Proudhon outlines the anarchist economic theory of mutualism.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Proudhon outlines the anarchist economic theory of mutualism.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;“Property is robbery!” This slogan coined by the French political philosopher &lt;a href="https://standardebooks.org/ebooks/pierre-joseph-proudhon"&gt;Pierre-Joseph Proudhon&lt;/a&gt; is one of his answers to the titular question of his 1840 treatise, &lt;i&gt;What Is Property?&lt;/i&gt; A fervent attack against the established order of capitalism and private property, the publication of &lt;i&gt;What Is Property?&lt;/i&gt; almost immediately led to Proudhon’s official prosecution and the revocation of Proudhon’s scholarship by the Academy of Besançon. (Proudhon, an autodidact of humble origins who began his working life as a printer, relied on the scholarship for financial support.) Proudhon evaded the worst of the consequences thanks to the intervention of the economist Jérôme-Adolphe Blanqui, to whom the second memoir contained in the book is addressed.&lt;/p&gt;
 			&lt;p&gt;In this treatise, Proudhon contrasts the legitimate right to &lt;em&gt;possession&lt;/em&gt;, in which individuals own the products of their labor and the necessary means of production, and the illegitimate right to &lt;em&gt;property&lt;/em&gt;, the absolute right granted to proprietors by civil laws to “use and abuse.” Proudhon examines the implications of the right to property and concludes that, among other things, property is “impossible,” “homicide,” and “the mother of tyranny.” As an alternative to both the proprietary and communist systems of economic organization, Proudhon advances his anarchist economic theory of “mutualism,” in which a socialist society would be organized based on free market exchanges wherein the value of a good or service is determined by the time and expense it has cost the laborer to produce.&lt;/p&gt;
 			&lt;p&gt;This edition of &lt;i&gt;What Is Property?&lt;/i&gt; was translated in 1876 by Benjamin Tucker, who was a notable advocate of individualist anarchism in his own right in the United States.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://en.wikisource.org/wiki/What_is_Property%3F</dc:source>
 		<dc:source>https://archive.org/details/what-is-property</dc:source>
