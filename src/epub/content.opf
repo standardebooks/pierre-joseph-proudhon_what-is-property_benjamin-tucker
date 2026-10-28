@@ -76,6 +76,7 @@
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="author-of-introduction">J. A. Langlois</dc:contributor>
 		<meta property="file-as" refines="#author-of-introduction">Langlois, J. A.</meta>
+		<meta property="schema:alternateName" refines="#author-of-introduction">Amédée-Jérôme Langlois</meta>
 		<meta property="schema:alternateName" refines="#author-of-introduction">Amédée Jérôme Langlois</meta>
 		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="artist">Gustave Courbet</dc:contributor>
