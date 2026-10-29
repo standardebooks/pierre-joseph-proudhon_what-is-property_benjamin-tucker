@@ -76,7 +76,6 @@
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="author-of-introduction">J. A. Langlois</dc:contributor>
 		<meta property="file-as" refines="#author-of-introduction">Langlois, J. A.</meta>
-		<meta property="schema:alternateName" refines="#author-of-introduction">Amédée-Jérôme Langlois</meta>
 		<meta property="schema:alternateName" refines="#author-of-introduction">Amédée Jérôme Langlois</meta>
 		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="artist">Gustave Courbet</dc:contributor>
@@ -88,7 +87,6 @@
 		<dc:contributor id="transcriber-1">Wikisource</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Wikisource</meta>
 		<link href="https://en.wikisource.org/" refines="#transcriber-1" rel="schema:url"/>
-		<link href="https://en.wikipedia.org/wiki/Wikisource" refines="#transcriber-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Weijia Cheng</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Cheng, Weijia</meta>
